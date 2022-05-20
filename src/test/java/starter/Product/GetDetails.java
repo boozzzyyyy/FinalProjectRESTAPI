@@ -10,7 +10,7 @@ public class GetDetails {
 
     @Step("I set method GET at api endpoints for get data details product")
     public String setMethodGet() {
-        return this.endpoint + "/products/1583";
+        return this.endpoint + "/products/2314";
     }
 
     @Step("I send method GET HTTP request for get data details product")
@@ -25,6 +25,6 @@ public class GetDetails {
 
     @Step("I receive valid message about details product")
     public void receiveValidMessage() {
-        restAssuredThat(response -> response.body("data.ID", equalTo(1583)));
+        restAssuredThat(response -> response.body("data.ID", equalTo(2314)));
     }
 }

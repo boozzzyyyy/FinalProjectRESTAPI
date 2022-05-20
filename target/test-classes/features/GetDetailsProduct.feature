@@ -1,7 +1,7 @@
 Feature: GetDetailsProduct
   As an Admin
   I want to Get Details Product
-  So that I can get data details product
+  So that I can get data details products
 
   Scenario: GET - As an Admin I have be able to get data details product
     Given I set method GET at api endpoints for get data details product

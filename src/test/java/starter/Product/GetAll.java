@@ -26,6 +26,6 @@ public class GetAll {
 
     @Step("I receive valid message get all data product succesfully")
     public void receiveValidMessage() {
-        restAssuredThat(response -> response.body("data[0].ID", equalTo(1583   )));
+        restAssuredThat(response -> response.body("data[0].ID", equalTo(2314   )));
     }
 }

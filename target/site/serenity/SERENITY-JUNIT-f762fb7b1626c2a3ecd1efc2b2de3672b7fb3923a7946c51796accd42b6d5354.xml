@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="GetDetailsProduct" skipped="0" tests="1" time="0.28" timestamp="2022-05-18 08:59:57"><testcase name="GET - As an Admin I have be able to get data details product"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="GetDetailsProduct" skipped="0" tests="1" time="0.27" timestamp="2022-05-20 07:05:02"><testcase name="GET - As an Admin I have be able to get data details product"/></testsuite>
